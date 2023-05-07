@@ -1,11 +1,11 @@
 
 class user {
-    index() {
+    index(data) {
+        console.log(data)
         return {
-            name: "Mehrdad"
+            name: "Morteza"
         }
     }
-
     sayHi() {
         console.log('helllllo');
     }
